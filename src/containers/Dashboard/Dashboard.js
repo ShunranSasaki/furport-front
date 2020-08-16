@@ -47,7 +47,7 @@ const Dashboard = (props) => {
   return (
     <>
       {authContext.token === null ? <Redirect to="/" /> : null}
-      <h1>{t("ダッシュボード")}</h1>
+      <h1>{t("containers.dashboard.title")}</h1>
       {error ? (
         <Typography>{error}</Typography>
       ) : !events ? (

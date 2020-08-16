@@ -295,7 +295,7 @@ const Events = (props) => {
 
   return (
     <>
-      <h1>{t("イベント")}</h1>
+      <h1>{t("containers.events.title")}</h1>
       {loadingEvents ||
       loadingProfiles ||
       generalTags === null ||
